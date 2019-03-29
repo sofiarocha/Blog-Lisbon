@@ -1,26 +1,18 @@
 .navbarspacer {
-    margin-top: 50px;
+  margin-top: 40px;
 }
 
- /* Three image containers (use 25% for four, and 50% for two, etc) */
- .column {
-    float: left;
-    width: 25%;
-    padding: 15px;
-  }
-  
-  /* Clear floats after image containers
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  } */
+.column {
+  float: left;
+  width: 25%;
+  padding: 15px;
+  display: inline-block;
+}
 
-  .biggerpic {
-      text-align: center;
+.biggerpic {
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  margin-top: 10px;
+}
 
-  }
-
-  .biggerpic img {
-
-  }
