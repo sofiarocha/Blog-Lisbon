@@ -36,3 +36,15 @@
     font-weight: 300;
     font-size: calc(12px + 1vw);
 }
+
+.contact {
+  height: 40vh;
+  background-color: #DCE1DB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-contact {
+  text-align: center;
+}
