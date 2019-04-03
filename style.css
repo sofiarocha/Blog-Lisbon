@@ -22,13 +22,17 @@ a:hover {
 
 .banner {
     text-align: center;
-    background: linear-gradient(to bottom, rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.7) 100%),url("https://picsum.photos/992/?random");
+    background: linear-gradient(to bottom, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%),url("https://i.imgur.com/SwztXrA.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .banner-titles {
-    top: 60%;
-    position: relative;
+  color: #F8F9FA;
 }
 
 .banner-titles h1 {
