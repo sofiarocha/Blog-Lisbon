@@ -25,3 +25,23 @@
   width: 500px;
 }
 
+.banner {
+    text-align: center;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.7) 100%),url("https://picsum.photos/992/?random");
+    height: 90vh;
+}
+
+.banner-titles {
+    top: 60%;
+    position: relative;
+}
+
+.banner-titles h1 {
+    font-weight: 800;
+    font-size: calc(28px + 3.5vw);
+}
+
+.banner-titles h2 {
+    font-weight: 300;
+    font-size: calc(12px + 1vw);
+}
