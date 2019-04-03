@@ -1,3 +1,7 @@
+a:hover {
+    opacity: 0.5;
+}
+
 .navbarspacer {
   margin-top: 40px;
 }
@@ -48,3 +52,4 @@
 .text-contact {
   text-align: center;
 }
+
