@@ -143,3 +143,66 @@
   margin-right:0
 }
 @media only screen and (max-width:990px){.box16{margin-bottom:30px}
+a:hover {
+    opacity: 0.5;
+}
+
+.navbarspacer {
+  margin-top: 40px;
+}
+
+.gallery img {
+  max-width: 10%;
+  display: inline;
+}
+
+.banner {
+    text-align: center;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.2) 100%),url("https://i.imgur.com/SwztXrA.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-titles {
+  color: #F8F9FA;
+}
+
+.banner-titles h1 {
+    font-weight: 800;
+    font-size: calc(32px + 3.5vw);
+    margin-bottom: calc(5px + 3.5vh);
+}
+
+.banner-titles h2 {
+    font-weight: 300;
+    font-size: calc(12px + 1vw);
+}
+
+.latest-posts {
+    margin-top: 30px;
+}
+
+.contact {
+  height: 40vh;
+  background-color: #DCE1DB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-contact {
+  text-align: center;
+}
+
+.event-place {
+  margin: 10%;
+}
+
+.event-place i {
+  margin: 5px;
+}
+

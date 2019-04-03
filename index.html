@@ -5,38 +5,176 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Lisbon Blog</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 <body>
     <section class="navbar">
-        Nav bar
+        <div class="container">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="./index.html">Home </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./posts-gallery.html">Where To Go <span class="sr-only">(current)</span></a>
+                        </li>
+            
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact-page.html">Contacts</a>
+                        </li>
+                                        
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+                        </li><span class="sr-only">(current)</span>
+                    </ul>
+                </div>
+            </nav>
+        </div>
     </section>
+    
+    <section class="navbarspacer"></section> <!-- this section gives space so the navbar do not overlaps the rest of the page-->    
+        
     <section class="banner">
-        <h1>Title</h1>
-        <h2>Subtitle</h2>
-        <form>
-            Search bar
-        </form>
+      <div class="banner-titles">
+          <h1>Wild Lisbon</h1>
+          <h2>Don't know what to visited or where to have some fun<br>You are on the right place</h2>
+      </div>
     </section>
     <section class="latest-posts">
-        <h3>Latest Posts</h3>
-        <div class="post-card">Postcard 1</div>
-        <div class="post-card">Postcard 2</div>
-        <div class="post-card">Postcard 3</div>
+      <h3 class="mx-4">Latest Posts</h3>
+      <div class="row mx-4 justify-content-center">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+          <div class="card">
+            <img class="card-img-top" src="https://picsum.photos/200/200" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+          <div class="card">
+            <img class="card-img-top" src="https://picsum.photos/200/200" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+          <div class="card">
+            <img class="card-img-top" src="https://picsum.photos/200/200" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+          <div class="card">
+            <img class="card-img-top" src="https://picsum.photos/200/200" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+            </div>
+        </div>
+      </div>
     </section>
     <section class="week-events">
-        <h3>Week Events</h3>
-        <div class="event">Event 1</div>
-        <div class="event">Event 2</div>
-        <div class="event">Event 3</div>
+        <h3 class="mx-4">Week Events</h3>
+        <div class="row mx-4 mb-4">
+          <div class="col-sm-12 col-lg-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title font-weight-bold">Italian Film Festival'19</h5>
+                <div class="d-flex bd-highlight">
+                    <p class="card-text bd-highlight mb-1">Thu 04/04/2019 - Sun 14/04/2019 <span class="event-place"><i class="fas fa-map-marker-alt"></i>Cinema São Jorge</span></p>
+                    <a href="www.festadocinemaitaliano.com/" target="_blank" class="btn btn-outline-secondary btn-sm bd-highlight">More info</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title font-weight-bold">Lisbon Fish and Flavours’19</h5>
+                  <div class="d-flex bd-highlight">
+                      <p class="card-text bd-highlight mb-1">Thu 04/04/2019 - Sun 14/04/2019 <span class="event-place"><i class="fas fa-map-marker-alt"></i>Pavilhão Carlos Lopes</span></p>
+                      <a href="www.peixemlisboa.com" target="_blank" class="btn btn-outline-secondary btn-sm bd-highlight">More info</a>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="col-sm-12 col-lg-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title font-weight-bold">Dave Mathews Band concert</h5>
+                <div class="d-flex bd-highlight">
+                  <p class="card-text bd-highlight mb-1">Sat 06/04/2019 <span class="event-place"><i class="fas fa-map-marker-alt"></i>Altice Arena</span></p>
+                  <a href="https://ticketline.sapo.pt/en/evento/dave-matthews-band-europe-2019-38030/sessao/63528_32_1554577200" target="_blank" class="btn btn-outline-secondary btn-sm bd-highlight">More info</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title font-weight-bold">Bollywood Holi</h5>
+                  <div class="d-flex bd-highlight">
+                    <p class="card-text bd-highlight mb-1">Sat 06/04/2019 <span class="event-place"><i class="fas fa-map-marker-alt"></i>Martim Moniz Square</span></p>
+                    <a href="https://www.facebook.com/bollywoodholi/" target="_blank" class="btn btn-outline-secondary btn-sm bd-highlight">More info</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
     </section>
     <section class="contact">
-        <h3>Contact Us</h3>
-        <button>Click here</button>
+        <div class="text-contact">
+            <h3>Contact Us</h3>
+            <p><small>You want to write to us, give us a suggestion or just keep in touch...</small></p>
+            <a href="./contact-page.html"><button>Click here</button></a>
+        </div>
     </section>
     <section class="footer">
-        Footer
+        <footer class="page-footer font-small blue pt-4">
+            <div class="container-fluid text-center text-md-left">
+                <div class="row">    
+                    <div class="col align-self-start">
+                        <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Home</a>
+                        </li>
+                        <li>
+                            <a href="#!">Where To Go</a>
+                        </li>
+                        <li>
+                            <a href="#!">Contacts</a>
+                        </li>
+                        </ul>
+                    </div>
+                    <hr class="clearfix w-100 d-md-none pb-3">
+                    <div class="col align-self-end">
+                        <h5 class="text-uppercase">About Us</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quibusdam voluptatibus.</p>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+  
     </section>
     <script src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
