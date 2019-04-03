@@ -195,10 +195,6 @@ a:hover {
   text-align: center;
 }
 
-.event-place {
-  margin: 10%;
-}
-
-.event-place i {
-  margin: 5px;
+.week-events i {
+  margin: 5px ;
 }
