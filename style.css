@@ -1,0 +1,15 @@
+.about {
+    height: 40vh;
+    background-color: #DCE1DB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.text-about {
+    padding: 70px;
+}
+
+.contact-us {
+    padding: 70px;
+}
