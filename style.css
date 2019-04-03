@@ -1,3 +1,25 @@
+a:hover {
+    opacity: 0.5;
+}
+
+.navbarspacer {
+  margin-top: 40px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 15px;
+  display: inline-block;
+}
+
+.biggerpic {
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  margin-top: 10px;
+}
+
 .banner {
     text-align: center;
     background: linear-gradient(to bottom, rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.7) 100%),url("https://picsum.photos/992/?random");
@@ -21,4 +43,16 @@
 
 .latest-posts {
     margin-top: 30px;
+}
+
+.contact {
+  height: 40vh;
+  background-color: #DCE1DB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-contact {
+  text-align: center;
 }
