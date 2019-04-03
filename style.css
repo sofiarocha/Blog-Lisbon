@@ -41,6 +41,10 @@ a:hover {
     font-size: calc(12px + 1vw);
 }
 
+.latest-posts {
+    margin-top: 30px;
+}
+
 .contact {
   height: 40vh;
   background-color: #DCE1DB;
@@ -52,4 +56,3 @@ a:hover {
 .text-contact {
   text-align: center;
 }
-
