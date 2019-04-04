@@ -23,6 +23,11 @@
   padding: 20px;
 }
 
+.lightbox-gallery{
+  width: 10%;
+}
+
+
 .map {
   padding: 70px;
 }
