@@ -94,8 +94,8 @@
   margin:0 0 10px;
 }
 
-.box16 .social li a,.box17 .icon li a {
-  border-radius:50%;
+.box16 .social li {
+  border-radius:100%;
   font-size:20px;
   color:#fff;
 }
@@ -123,22 +123,6 @@
   display:inline-block;
 }
 
-.box16 .social li a {
-  display:block;
-  width:20px;
-  height:40px;
-  line-height:40px;
-  margin-right:10px;
-  transition:all .3s ease 0s;
-}
-
-.box17 .icon li,.box17 .icon li a {
-  display:inline-block;
-}
-
-.box16 .social li:last-child a {
-  margin-right:0;
-}
 @media only screen and (max-width:990px) {
   .box16 {
     margin-bottom:30px
