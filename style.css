@@ -141,11 +141,7 @@ font-size: calc(5px + 3.5vw);
     margin-bottom:30px
   }
 }
-
-a:hover {
-  opacity: 0.5;
-}
-
+ 
 .navbarspacer {
   margin-top: 40px;
 }
@@ -208,4 +204,9 @@ a:hover {
 a:link, a:visited {
   color: gray;
   text-decoration: none;
+}
+
+a:hover {
+  color: gray;
+  opacity: 0.5;
 }
