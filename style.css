@@ -2,7 +2,7 @@ h1, h2, h3, h5 {
 font-family: Oswald; 
 }
 
-p { 
+p, a, .btn { 
   font-family: Monserrat;
   
 }
@@ -198,6 +198,10 @@ a:hover {
 
 .week-events i {
   margin: 5px ;
+}
+
+.week-events p {
+  font-size: 14px;
 }
 
 .list-unstyled li {
