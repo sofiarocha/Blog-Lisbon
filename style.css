@@ -33,17 +33,13 @@ font-size: calc(5px + 3.5vw);
   padding: 70px;
 }
 
-.column {
-  float: left;
-  width: 50%;
-  margin-top: 6px;
-  padding: 20px;
+.lightbox-gallery img{
+  width: 100%;
 }
-/*
-.lightbox-gallery{
-  width: 10%;
-}*/
 
+.row {
+  justify-content: center;
+}
 
 .map {
   padding: 70px;
