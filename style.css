@@ -64,6 +64,8 @@ font-size: calc(5px + 3.5vw);
   text-align:center;
   color:#fff;
   position:relative;
+  width: 100%;
+  height: 100%;
 }
 
 .box16 .box-content,.box16:after {
@@ -208,4 +210,9 @@ a:hover {
 a:link, a:visited {
   color: gray;
   text-decoration: none;
+}
+
+.wcsphoto img{
+  max-width: 70%;
+  max-height: 70%;
 }
